@@ -1,15 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        boolean registered = true;
-        int current_balance = 100;
+        int currentBalance = 100;
         long bonus;
-        long balance_replenishment = 1190;
-        if (balance_replenishment >= 1000){
-            bonus = balance_replenishment/100;
+        long balanceReplenishment = 1190;
+        if (balanceReplenishment >= 1000){
+            bonus = balanceReplenishment/100;
         } else {
             bonus = 0;
         }
-        long new_balance = current_balance + balance_replenishment + bonus;
+        long balance = currentBalance + balanceReplenishment + bonus;
         System.out.println(new_balance);
 
     }
