@@ -8,8 +8,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        long Balance = balance + balanceReplenishment + bonus;
-        System.out.println(Balance);
+        long balance = balance + balanceReplenishment + bonus;
+        System.out.println(balance);
 
     }
 }
